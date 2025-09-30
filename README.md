@@ -88,13 +88,15 @@ Simply run `python3 bayesian_bf_consistency.py`.
 ## Table Generation
 We have also included code that automatically generates latex tables containing all results (in `results` folder).
 
-- Result t-test and Aggregation
+- Result t-test/aggregation and std deviation retrieval
 
     Performs a two sided t-test on the error rates (each of the three losses).
     Also aggregates data from results for each dataset. 
     This must be run before making the loss tables (below).
 
     `python3 result_t_test.py`
+
+    `python3 loss_std_retrieval.py`
 
 - Table Generation
 
