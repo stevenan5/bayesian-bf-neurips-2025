@@ -1,0 +1,9 @@
+2024-06-11 21:56:41 - ==========Running New Instance==========
+2024-06-11 21:56:41 - dataset: chemprot, n_class: 10
+2024-06-11 21:56:41 - constraint type: accuracy, labeled set: train
+2024-06-11 21:56:41 - balance init: uniform
+2024-06-11 21:56:53 - ----------------Results----------------
+2024-06-11 21:56:53 - time to fit: 11.9 seconds
+2024-06-11 21:56:53 - train acc (train err): 0.5247 (0.4753)
+2024-06-11 21:56:53 - train log loss: 2.2837
+2024-06-11 21:56:53 - train brier score: 0.8961

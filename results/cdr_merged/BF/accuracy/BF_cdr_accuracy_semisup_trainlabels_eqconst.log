@@ -1,0 +1,18 @@
+2024-06-11 20:50:14 - ----------Running New Instance----------
+2024-06-11 20:50:14 - dataset: cdr, n_class: 2
+2024-06-11 20:50:14 - constraint type: accuracy, add MV const: False
+2024-06-11 20:50:14 - labeled set: train, use inequalities: False
+2024-06-11 20:50:14 - bound method: binomial
+2024-06-11 20:50:14 - ----Estimating Probabilities----
+2024-06-11 20:50:14 - 873 out of 12562 labeled datapoints on average per rule 
+2024-06-11 20:50:14 - 33 rules with labeled data out of 33 total
+2024-06-11 20:50:14 - Number of labeled predictions per rule: [ 449  310   49  684 1291 2577  188  250  289  700  854  238    6  518
+  261  435   11 1594 1113   29 4204 8381   22 1231   78  556  109   42
+  217   60  315  266 1508]
+2024-06-11 20:50:16 - ================Results================
+2024-06-11 20:50:16 - time to fit: 1.1 seconds
+2024-06-11 20:50:16 - train acc (train err): 0.7652 (0.2348)
+2024-06-11 20:50:16 - bf train log loss upper bound 0.4378
+2024-06-11 20:50:16 - train log loss: 0.4378
+2024-06-11 20:50:16 - train brier score: 0.2992
+2024-06-11 20:50:16 - train f1 score: 0.7225

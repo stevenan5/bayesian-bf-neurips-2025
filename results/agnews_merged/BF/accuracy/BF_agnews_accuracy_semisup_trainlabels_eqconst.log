@@ -1,0 +1,15 @@
+2024-06-11 20:49:15 - ----------Running New Instance----------
+2024-06-11 20:49:15 - dataset: agnews, n_class: 4
+2024-06-11 20:49:15 - constraint type: accuracy, add MV const: False
+2024-06-11 20:49:15 - labeled set: train, use inequalities: False
+2024-06-11 20:49:15 - bound method: binomial
+2024-06-11 20:49:15 - ----Estimating Probabilities----
+2024-06-11 20:49:15 - 12367 out of 82591 labeled datapoints on average per rule 
+2024-06-11 20:49:15 - 9 rules with labeled data out of 9 total
+2024-06-11 20:49:15 - Number of labeled predictions per rule: [13714 16499 18001  1858 10760 12214 10271 26468  1521]
+2024-06-11 20:49:27 - ================Results================
+2024-06-11 20:49:27 - time to fit: 11.8 seconds
+2024-06-11 20:49:27 - train acc (train err): 0.8224 (0.1776)
+2024-06-11 20:49:27 - bf train log loss upper bound 0.5657
+2024-06-11 20:49:27 - train log loss: 0.5657
+2024-06-11 20:49:27 - train brier score: 0.2819

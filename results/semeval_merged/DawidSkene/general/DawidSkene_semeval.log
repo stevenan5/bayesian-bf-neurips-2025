@@ -1,0 +1,8 @@
+2024-06-07 17:45:22 - ------------Running DawidSkene------------
+2024-06-07 17:45:22 - dataset: semeval, ds_model: general
+2024-06-07 17:45:24 - ================Results================
+2024-06-07 17:45:24 - time to fit: 1.4 seconds
+2024-06-07 17:45:24 - train acc (train err): 0.7353 (0.2647)
+2024-06-07 17:45:24 - train log loss: 8.4779
+2024-06-07 17:45:24 - train brier score: 0.5295
+2024-06-07 17:45:24 - oracle log loss: 8.4779

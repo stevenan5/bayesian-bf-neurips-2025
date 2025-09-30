@@ -1,0 +1,9 @@
+2024-06-07 17:44:55 - ------------Running DawidSkene------------
+2024-06-07 17:44:55 - dataset: imdb, ds_model: general
+2024-06-07 17:45:07 - ================Results================
+2024-06-07 17:45:07 - time to fit: 12.2 seconds
+2024-06-07 17:45:07 - train acc (train err): 0.5031 (0.4969)
+2024-06-07 17:45:07 - train log loss: 2.2130
+2024-06-07 17:45:07 - train brier score: 0.8145
+2024-06-07 17:45:07 - train f1 score: 0.6508
+2024-06-07 17:45:07 - oracle log loss: 2.2130

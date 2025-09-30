@@ -1,0 +1,8 @@
+2024-06-07 17:46:00 - ------------Running DawidSkene------------
+2024-06-07 17:46:00 - dataset: agnews, ds_model: general
+2024-06-07 17:46:02 - ================Results================
+2024-06-07 17:46:02 - time to fit: 1.9 seconds
+2024-06-07 17:46:02 - train acc (train err): 0.8179 (0.1821)
+2024-06-07 17:46:02 - train log loss: 2.0376
+2024-06-07 17:46:02 - train brier score: 0.3157
+2024-06-07 17:46:02 - oracle log loss: 2.0376

@@ -1,0 +1,20 @@
+name: wrench_bayesian_bf
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=21.0.1=py36h06a4308_0
+  - python=3.6.13=h12debd9_1
+  - pytorch=1.9.0=py3.6_cuda10.2_cudnn7.6.5_0
+  - pip:
+    - ws-benchmark==1.1.2rc0
+    - mosek==9.3.22
+    - matplotlib==3.3.4
+    - pytokenizations==0.8.4
+    - numba==0.43.0
+    - pgmpy==0.1.23
+    - tensorboardx==1.4
+    - hyperlm==0.0.5
+    - torchvision==0.10.0
+    - llvmlite==0.32.1

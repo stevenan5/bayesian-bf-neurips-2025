@@ -1,0 +1,10 @@
+2024-06-11 21:55:25 - ==========Running New Instance==========
+2024-06-11 21:55:25 - dataset: yelp, n_class: 2
+2024-06-11 21:55:25 - constraint type: accuracy, labeled set: train
+2024-06-11 21:55:25 - balance init: uniform
+2024-06-11 21:55:27 - ----------------Results----------------
+2024-06-11 21:55:27 - time to fit: 2.6 seconds
+2024-06-11 21:55:27 - train acc (train err): 0.7181 (0.2819)
+2024-06-11 21:55:27 - train log loss: 0.6928
+2024-06-11 21:55:27 - train brier score: 0.4996
+2024-06-11 21:55:27 - train f1 score: 0.7767

@@ -1,0 +1,9 @@
+2024-06-11 21:56:09 - ==========Running New Instance==========
+2024-06-11 21:56:09 - dataset: trec, n_class: 6
+2024-06-11 21:56:09 - constraint type: accuracy, labeled set: train
+2024-06-11 21:56:09 - balance init: uniform
+2024-06-11 21:56:13 - ----------------Results----------------
+2024-06-11 21:56:13 - time to fit: 4.4 seconds
+2024-06-11 21:56:13 - train acc (train err): 0.5988 (0.4012)
+2024-06-11 21:56:13 - train log loss: 1.7087
+2024-06-11 21:56:13 - train brier score: 0.8019

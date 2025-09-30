@@ -1,0 +1,1 @@
+[{"labeled_set": "train", "n_max_labeled": [-1], "unsup_balance_init": "uniform", "unsup_balance_init_rescale": -1, "dataset_name": "cardio", "n_classes": 2, "use_test": false, "n_runs": 10}]

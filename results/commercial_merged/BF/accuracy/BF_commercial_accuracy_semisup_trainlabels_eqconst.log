@@ -1,0 +1,9 @@
+2024-06-11 20:50:17 - ----------Running New Instance----------
+2024-06-11 20:50:17 - dataset: commercial, n_class: 2
+2024-06-11 20:50:17 - constraint type: accuracy, add MV const: False
+2024-06-11 20:50:17 - labeled set: train, use inequalities: False
+2024-06-11 20:50:17 - bound method: binomial
+2024-06-11 20:50:17 - ----Estimating Probabilities----
+2024-06-11 20:50:17 - 44303 out of 81105 labeled datapoints on average per rule 
+2024-06-11 20:50:17 - 4 rules with labeled data out of 4 total
+2024-06-11 20:50:17 - Number of labeled predictions per rule: [18057 81105 65000 13052]

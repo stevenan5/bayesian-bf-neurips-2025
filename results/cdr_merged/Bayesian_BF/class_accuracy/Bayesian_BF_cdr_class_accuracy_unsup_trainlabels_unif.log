@@ -1,0 +1,10 @@
+2024-06-06 02:33:08 - ==========Running New Instance==========
+2024-06-06 02:33:08 - dataset: cdr, n_class: 2
+2024-06-06 02:33:08 - constraint type: class_accuracy, labeled set: train
+2024-06-06 02:33:08 - balance init: uniform
+2024-06-06 02:33:11 - ----------------Results----------------
+2024-06-06 02:33:11 - time to fit: 2.6 seconds
+2024-06-06 02:33:11 - train acc (train err): 0.4948 (0.5052)
+2024-06-06 02:33:11 - train log loss: 0.6931
+2024-06-06 02:33:11 - train brier score: 0.5000
+2024-06-06 02:33:11 - train f1 score: 0.4339

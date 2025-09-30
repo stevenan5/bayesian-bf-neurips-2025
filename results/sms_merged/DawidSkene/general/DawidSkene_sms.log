@@ -1,0 +1,9 @@
+2024-06-07 17:45:08 - ------------Running DawidSkene------------
+2024-06-07 17:45:08 - dataset: sms, ds_model: general
+2024-06-07 17:45:08 - ================Results================
+2024-06-07 17:45:08 - time to fit: 0.3 seconds
+2024-06-07 17:45:08 - train acc (train err): 0.8718 (0.1282)
+2024-06-07 17:45:08 - train log loss: 1.7300
+2024-06-07 17:45:08 - train brier score: 0.2273
+2024-06-07 17:45:08 - train f1 score: 0.6530
+2024-06-07 17:45:08 - oracle log loss: 1.7300

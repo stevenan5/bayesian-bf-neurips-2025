@@ -1,0 +1,9 @@
+2024-06-07 17:45:12 - ------------Running DawidSkene------------
+2024-06-07 17:45:12 - dataset: tennis, ds_model: general
+2024-06-07 17:45:12 - ================Results================
+2024-06-07 17:45:12 - time to fit: 0.0 seconds
+2024-06-07 17:45:12 - train acc (train err): 0.8654 (0.1346)
+2024-06-07 17:45:12 - train log loss: 1.5510
+2024-06-07 17:45:12 - train brier score: 0.2608
+2024-06-07 17:45:12 - train f1 score: 0.8356
+2024-06-07 17:45:12 - oracle log loss: 1.5510

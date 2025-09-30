@@ -1,0 +1,16 @@
+2024-06-11 20:49:04 - ----------Running New Instance----------
+2024-06-11 20:49:04 - dataset: tennis, n_class: 2
+2024-06-11 20:49:04 - constraint type: accuracy, add MV const: False
+2024-06-11 20:49:04 - labeled set: train, use inequalities: False
+2024-06-11 20:49:04 - bound method: binomial
+2024-06-11 20:49:04 - ----Estimating Probabilities----
+2024-06-11 20:49:04 - 5890 out of 8803 labeled datapoints on average per rule 
+2024-06-11 20:49:04 - 6 rules with labeled data out of 6 total
+2024-06-11 20:49:04 - Number of labeled predictions per rule: [8803 8803 1042 5219 8803 2675]
+2024-06-11 20:49:04 - ================Results================
+2024-06-11 20:49:04 - time to fit: 0.5 seconds
+2024-06-11 20:49:04 - train acc (train err): 0.8664 (0.1336)
+2024-06-11 20:49:04 - bf train log loss upper bound 0.3609
+2024-06-11 20:49:04 - train log loss: 0.3609
+2024-06-11 20:49:04 - train brier score: 0.2112
+2024-06-11 20:49:04 - train f1 score: 0.8343

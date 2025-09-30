@@ -1,0 +1,9 @@
+2024-06-07 17:45:08 - ------------Running DawidSkene------------
+2024-06-07 17:45:08 - dataset: cdr, ds_model: general
+2024-06-07 17:45:09 - ================Results================
+2024-06-07 17:45:09 - time to fit: 0.9 seconds
+2024-06-07 17:45:09 - train acc (train err): 0.4577 (0.5423)
+2024-06-07 17:45:09 - train log loss: 13.8422
+2024-06-07 17:45:09 - train brier score: 1.0845
+2024-06-07 17:45:09 - train f1 score: 0.5790
+2024-06-07 17:45:09 - oracle log loss: 13.8422

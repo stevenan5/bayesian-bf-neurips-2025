@@ -1,0 +1,9 @@
+2024-06-11 21:58:21 - ==========Running New Instance==========
+2024-06-11 21:58:21 - dataset: agnews, n_class: 4
+2024-06-11 21:58:21 - constraint type: accuracy, labeled set: train
+2024-06-11 21:58:21 - balance init: majority_vote
+2024-06-11 21:58:57 - ----------------Results----------------
+2024-06-11 21:58:57 - time to fit: 36.3 seconds
+2024-06-11 21:58:57 - train acc (train err): 0.2657 (0.7343)
+2024-06-11 21:58:57 - train log loss: 1.3818
+2024-06-11 21:58:57 - train brier score: 0.7478

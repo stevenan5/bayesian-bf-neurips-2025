@@ -1,0 +1,10 @@
+2024-06-11 21:55:14 - ==========Running New Instance==========
+2024-06-11 21:55:14 - dataset: sms, n_class: 2
+2024-06-11 21:55:14 - constraint type: accuracy, labeled set: train
+2024-06-11 21:55:14 - balance init: uniform
+2024-06-11 21:55:15 - ----------------Results----------------
+2024-06-11 21:55:15 - time to fit: 0.5 seconds
+2024-06-11 21:55:15 - train acc (train err): 0.9386 (0.0614)
+2024-06-11 21:55:15 - train log loss: 0.6512
+2024-06-11 21:55:15 - train brier score: 0.4604
+2024-06-11 21:55:15 - train f1 score: 0.7877

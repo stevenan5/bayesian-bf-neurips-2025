@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSTAIN	astra.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	implyloss.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	weasel.py	/^ABSTAIN = -1$/;"	v
+AssembleModel	denoise.py	/^class AssembleModel(BackBone):$/;"	c
+Astra	astra.py	/^class Astra(BaseTorchClassModel):$/;"	c
+AstraModel	astra.py	/^class AstraModel(BackBone):$/;"	c
+AttentionModel	denoise.py	/^class AttentionModel(nn.Module):$/;"	c
+Denoise	denoise.py	/^class Denoise(BaseTorchClassModel):$/;"	c
+Encoder	weasel.py	/^class Encoder(BackBone):$/;"	c
+ImplyLoss	implyloss.py	/^class ImplyLoss(BaseTorchClassModel):$/;"	c
+ImplyLossModel	implyloss.py	/^class ImplyLossModel(BackBone):$/;"	c
+RuleAttentionTeacherNetwork	astra.py	/^class RuleAttentionTeacherNetwork(BackBone):$/;"	c
+RuleNetwork	implyloss.py	/^class RuleNetwork(nn.Module):$/;"	c
+WeaSEL	weasel.py	/^class WeaSEL(BaseTorchClassModel):$/;"	c
+WeaSELModel	weasel.py	/^class WeaSELModel(BackBone):$/;"	c
+__init__	astra.py	/^    def __init__(self, rule_embed_size, dropout, n_rules, n_class, backbone):$/;"	m	class:AstraModel
+__init__	astra.py	/^    def __init__(self, rule_embed_size, n_rules, n_class, hidden_size, dropout):$/;"	m	class:RuleAttentionTeacherNetwork
+__init__	astra.py	/^    def __init__(self,$/;"	m	class:Astra
+__init__	denoise.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class):$/;"	m	class:AttentionModel
+__init__	denoise.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, backbone):$/;"	m	class:AssembleModel
+__init__	denoise.py	/^    def __init__(self,$/;"	m	class:Denoise
+__init__	implyloss.py	/^    def __init__(self, input_size, n_rules, hidden_size, dropout=0.8):$/;"	m	class:RuleNetwork
+__init__	implyloss.py	/^    def __init__(self, input_size, n_rules, n_class, backbone, hidden_size, q, dropout=0.8):$/;"	m	class:ImplyLossModel
+__init__	implyloss.py	/^    def __init__(self,$/;"	m	class:ImplyLoss
+__init__	weasel.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, temperature, dropout, backbone, balance):$/;"	m	class:WeaSELModel
+__init__	weasel.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, temperature, dropout=0.3, balance=None):$/;"	m	class:Encoder
+__init__	weasel.py	/^    def __init__(self,$/;"	m	class:WeaSEL
+calculate_labeled_batch_loss	implyloss.py	/^    def calculate_labeled_batch_loss(self, labeled_batch, data_exemplar_matrix):$/;"	m	class:ImplyLossModel
+calculate_loss	weasel.py	/^    def calculate_loss(self, batch):$/;"	m	class:WeaSELModel
+calculate_unlabeled_batch_loss	implyloss.py	/^    def calculate_unlabeled_batch_loss(self, unlabeled_batch):$/;"	m	class:ImplyLossModel
+collect_pseudodataset_student	astra.py	/^    def collect_pseudodataset_student(self, dataset):$/;"	m	class:Astra
+collect_pseudodataset_teacher	astra.py	/^    def collect_pseudodataset_teacher(self, dataset):$/;"	m	class:Astra
+fit	astra.py	/^    def fit(self,$/;"	m	class:Astra
+fit	denoise.py	/^    def fit(self,$/;"	m	class:Denoise
+fit	implyloss.py	/^    def fit(self,$/;"	m	class:ImplyLoss
+fit	weasel.py	/^    def fit(self,$/;"	m	class:WeaSEL
+forward	astra.py	/^    def forward(self, batch, features, proba):$/;"	m	class:RuleAttentionTeacherNetwork
+forward	astra.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:AstraModel
+forward	denoise.py	/^    def forward(self, batch_l, batch_u, x_lf_l, x_lf_u):$/;"	m	class:AssembleModel
+forward	denoise.py	/^    def forward(self, x_lf, batch):$/;"	m	class:AttentionModel
+forward	implyloss.py	/^    def forward(self, batch):$/;"	m	class:ImplyLossModel
+forward	implyloss.py	/^    def forward(self, x):$/;"	m	class:RuleNetwork
+forward	weasel.py	/^    def forward(self, batch):$/;"	m	class:Encoder
+forward_teacher	astra.py	/^    def forward_teacher(self, batch, features=None, proba=None):$/;"	m	class:AstraModel
+get_r_score	implyloss.py	/^    def get_r_score(self, x):$/;"	m	class:ImplyLossModel
+init_balance	weasel.py	/^def init_balance(n_class: int,$/;"	f
+logger	astra.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	denoise.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	implyloss.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	weasel.py	/^logger = logging.getLogger(__name__)$/;"	v
+predict_proba	astra.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'student',$/;"	m	class:Astra
+predict_proba	denoise.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'feature',$/;"	m	class:Denoise
+predict_proba	implyloss.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'implyloss',$/;"	m	class:ImplyLoss
+set_class_prior	weasel.py	/^    def set_class_prior(self, p):$/;"	m	class:Encoder
+update_state_dict	astra.py	/^def update_state_dict(model, state_dict: dict, mode: str):$/;"	f

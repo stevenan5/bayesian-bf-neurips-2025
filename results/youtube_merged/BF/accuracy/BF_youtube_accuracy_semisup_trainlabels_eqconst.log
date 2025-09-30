@@ -1,0 +1,16 @@
+2024-06-11 20:50:14 - ----------Running New Instance----------
+2024-06-11 20:50:14 - dataset: youtube, n_class: 2
+2024-06-11 20:50:14 - constraint type: accuracy, add MV const: False
+2024-06-11 20:50:14 - labeled set: train, use inequalities: False
+2024-06-11 20:50:14 - bound method: binomial
+2024-06-11 20:50:14 - ----Estimating Probabilities----
+2024-06-11 20:50:14 - 353 out of 1843 labeled datapoints on average per rule 
+2024-06-11 20:50:14 - 10 rules with labeled data out of 10 total
+2024-06-11 20:50:14 - Number of labeled predictions per rule: [402 262 207 220 331 471 516 248  97 784]
+2024-06-11 20:50:14 - ================Results================
+2024-06-11 20:50:14 - time to fit: 0.2 seconds
+2024-06-11 20:50:14 - train acc (train err): 0.9392 (0.0608)
+2024-06-11 20:50:14 - bf train log loss upper bound 0.1819
+2024-06-11 20:50:14 - train log loss: 0.1819
+2024-06-11 20:50:14 - train brier score: 0.1020
+2024-06-11 20:50:14 - train f1 score: 0.9422

@@ -1,0 +1,9 @@
+2024-06-11 21:56:29 - ==========Running New Instance==========
+2024-06-11 21:56:29 - dataset: semeval, n_class: 9
+2024-06-11 21:56:29 - constraint type: accuracy, labeled set: train
+2024-06-11 21:56:29 - balance init: majority_vote
+2024-06-11 21:56:35 - ----------------Results----------------
+2024-06-11 21:56:35 - time to fit: 5.3 seconds
+2024-06-11 21:56:35 - train acc (train err): 0.5192 (0.4808)
+2024-06-11 21:56:35 - train log loss: 1.5752
+2024-06-11 21:56:35 - train brier score: 0.6927

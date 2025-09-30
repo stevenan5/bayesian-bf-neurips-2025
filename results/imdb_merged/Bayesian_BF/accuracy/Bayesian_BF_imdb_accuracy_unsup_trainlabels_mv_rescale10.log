@@ -1,0 +1,11 @@
+2024-06-11 21:55:10 - ==========Running New Instance==========
+2024-06-11 21:55:10 - dataset: imdb, n_class: 2
+2024-06-11 21:55:10 - constraint type: accuracy, labeled set: train
+2024-06-11 21:55:10 - balance init: majority_vote
+2024-06-11 21:55:10 - balance init rescale: 10
+2024-06-11 21:55:13 - ----------------Results----------------
+2024-06-11 21:55:13 - time to fit: 2.6 seconds
+2024-06-11 21:55:13 - train acc (train err): 0.7247 (0.2753)
+2024-06-11 21:55:13 - train log loss: 0.6929
+2024-06-11 21:55:13 - train brier score: 0.4997
+2024-06-11 21:55:13 - train f1 score: 0.7467

@@ -1,0 +1,1 @@
+[{"labeled_set": "train", "bound_method": "binomial", "use_inequality_consts": false, "get_confidences": false, "add_mv_const": false, "use_test": false, "n_max_labeled": [-1], "dataset_name": "yelp", "n_classes": 2, "pattern_neighborhood_size": 6, "pred_prob_incr": 10, "n_runs": 10}]

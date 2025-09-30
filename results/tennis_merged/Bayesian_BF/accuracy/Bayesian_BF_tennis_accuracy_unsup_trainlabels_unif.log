@@ -1,0 +1,10 @@
+2024-06-11 21:56:06 - ==========Running New Instance==========
+2024-06-11 21:56:06 - dataset: tennis, n_class: 2
+2024-06-11 21:56:06 - constraint type: accuracy, labeled set: train
+2024-06-11 21:56:06 - balance init: uniform
+2024-06-11 21:56:07 - ----------------Results----------------
+2024-06-11 21:56:07 - time to fit: 0.7 seconds
+2024-06-11 21:56:07 - train acc (train err): 0.8456 (0.1544)
+2024-06-11 21:56:07 - train log loss: 0.6918
+2024-06-11 21:56:07 - train brier score: 0.4987
+2024-06-11 21:56:07 - train f1 score: 0.7987

@@ -1,0 +1,9 @@
+2024-06-07 17:45:09 - ------------Running DawidSkene------------
+2024-06-07 17:45:09 - dataset: yelp, ds_model: general
+2024-06-07 17:45:11 - ================Results================
+2024-06-07 17:45:11 - time to fit: 1.8 seconds
+2024-06-07 17:45:11 - train acc (train err): 0.7297 (0.2703)
+2024-06-07 17:45:11 - train log loss: 0.8473
+2024-06-07 17:45:11 - train brier score: 0.3904
+2024-06-07 17:45:11 - train f1 score: 0.7520
+2024-06-07 17:45:11 - oracle log loss: 0.8473

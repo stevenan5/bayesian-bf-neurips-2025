@@ -1,0 +1,16 @@
+2024-06-11 20:49:09 - ----------Running New Instance----------
+2024-06-11 20:49:09 - dataset: chemprot, n_class: 10
+2024-06-11 20:49:09 - constraint type: accuracy, add MV const: False
+2024-06-11 20:49:09 - labeled set: train, use inequalities: False
+2024-06-11 20:49:09 - bound method: binomial
+2024-06-11 20:49:09 - ----Estimating Probabilities----
+2024-06-11 20:49:09 - 955 out of 13768 labeled datapoints on average per rule 
+2024-06-11 20:49:09 - 26 rules with labeled data out of 26 total
+2024-06-11 20:49:09 - Number of labeled predictions per rule: [ 323   47  504 1654  434  746 1873 1600 2453  611  129  331 1253 5263
+  854  800 1289  355   71   42  370  735  356  953  214 1593]
+2024-06-11 20:49:15 - ================Results================
+2024-06-11 20:49:15 - time to fit: 6.0 seconds
+2024-06-11 20:49:15 - train acc (train err): 0.6126 (0.3874)
+2024-06-11 20:49:15 - bf train log loss upper bound 1.1284
+2024-06-11 20:49:15 - train log loss: 1.1284
+2024-06-11 20:49:15 - train brier score: 0.5342

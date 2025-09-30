@@ -1,0 +1,103 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BERTTorchDataset	torchdataset.py	/^class BERTTorchDataset(TorchDataset):$/;"	c
+BERTTorchRelationClassDataset	torchdataset.py	/^class BERTTorchRelationClassDataset(BERTTorchDataset):$/;"	c
+BERTTorchTextClassDataset	torchdataset.py	/^class BERTTorchTextClassDataset(BERTTorchDataset):$/;"	c
+BaseDataset	basedataset.py	/^class BaseDataset(ABC):$/;"	c
+BaseSeqDataset	seqdataset.py	/^class BaseSeqDataset:$/;"	c
+GraphDataset	graphdataset.py	/^class GraphDataset(BaseDataset):$/;"	c
+GraphNumericDataset	graphdataset.py	/^class GraphNumericDataset(GraphDataset, NumericDataset):$/;"	c
+GraphTextDataset	graphdataset.py	/^class GraphTextDataset(GraphDataset, TextDataset):$/;"	c
+ImageDataset	dataset.py	/^class ImageDataset(BaseDataset):$/;"	c
+ImageTorchDataset	torchdataset.py	/^class ImageTorchDataset(TorchDataset):$/;"	c
+NumericDataset	dataset.py	/^class NumericDataset(BaseDataset):$/;"	c
+RelationDataset	dataset.py	/^class RelationDataset(BaseDataset):$/;"	c
+TextDataset	dataset.py	/^class TextDataset(BaseDataset):$/;"	c
+TorchDataset	torchdataset.py	/^class TorchDataset(Dataset):$/;"	c
+__getitem__	torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:BERTTorchDataset	file:
+__getitem__	torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:ImageTorchDataset	file:
+__getitem__	torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:TorchDataset	file:
+__init__	basedataset.py	/^    def __init__(self,$/;"	m	class:BaseDataset
+__init__	dataset.py	/^    def __init__(self,$/;"	m	class:ImageDataset
+__init__	graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphDataset
+__init__	graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphNumericDataset
+__init__	graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphTextDataset
+__init__	seqdataset.py	/^    def __init__(self,$/;"	m	class:BaseSeqDataset
+__init__	torchdataset.py	/^    def __init__(self, dataset: BaseDataset, n_data: Optional[int] = 0):$/;"	m	class:TorchDataset
+__init__	torchdataset.py	/^    def __init__(self, dataset: ImageDataset, n_data: Optional[int] = 0):$/;"	m	class:ImageTorchDataset
+__init__	torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchDataset
+__init__	torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchRelationClassDataset
+__init__	torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchTextClassDataset
+__len__	basedataset.py	/^    def __len__(self):$/;"	m	class:BaseDataset	file:
+__len__	seqdataset.py	/^    def __len__(self):$/;"	m	class:BaseSeqDataset	file:
+__len__	torchdataset.py	/^    def __len__(self):$/;"	m	class:TorchDataset	file:
+bag_of_words_extractor	utils.py	/^def bag_of_words_extractor(data: List[Dict], **kwargs: Any):$/;"	f
+bert_relation_extractor	utils.py	/^def bert_relation_extractor(data: List[Dict], device: torch.device = None,$/;"	f
+bert_text_extractor	utils.py	/^def bert_text_extractor(data: List[Dict], device: torch.device = None, model_name: Optional[str] = 'bert-base-cased',$/;"	f
+bin_cls_dataset_list	__init__.py	/^bin_cls_dataset_list = numeric_datasets + ['cdr', 'spouse', 'sms', 'yelp', 'imdb', 'youtube']$/;"	v
+build_bert_embeddings	seqdataset.py	/^def build_bert_embeddings(corpus, bert_model_name, device):$/;"	f
+check_weak_labels	utils.py	/^def check_weak_labels(dataset: Union[BaseDataset, np.ndarray]) -> np.ndarray:$/;"	f
+clear_data_home	__init__.py	/^def clear_data_home(data_home=None):$/;"	f
+cls_dataset_list	__init__.py	/^cls_dataset_list = numeric_datasets + text_datasets + relation_dataset$/;"	v
+convert_corpus_to_tensor	torchdataset.py	/^    def convert_corpus_to_tensor(self, corpus):$/;"	m	class:BERTTorchTextClassDataset
+convert_corpus_to_tensor	torchdataset.py	/^    def convert_corpus_to_tensor(self, examples):$/;"	m	class:BERTTorchRelationClassDataset
+create_split	basedataset.py	/^    def create_split(self, idx: List[int]):$/;"	m	class:BaseDataset
+create_subset	basedataset.py	/^    def create_subset(self, idx: List[int]):$/;"	m	class:BaseDataset
+create_subset	dataset.py	/^    def create_subset(self, idx: List[int]):$/;"	m	class:ImageDataset
+create_unbalanced_set	utils.py	/^def create_unbalanced_set(data: BaseDataset, imbalance_ratio: int):$/;"	f
+entity_to_bio_labels	seqdataset.py	/^def entity_to_bio_labels(entities: List[str]):$/;"	f
+extract_feature	basedataset.py	/^    def extract_feature(self,$/;"	m	class:BaseDataset
+extract_feature_	basedataset.py	/^    def extract_feature_(self, extract_fn: str, return_extractor: bool, **kwargs: Any):$/;"	m	class:BaseDataset
+extract_feature_	dataset.py	/^    def extract_feature_(self,$/;"	m	class:ImageDataset
+extract_feature_	dataset.py	/^    def extract_feature_(self,$/;"	m	class:NumericDataset
+extract_feature_	dataset.py	/^    def extract_feature_(self,$/;"	m	class:RelationDataset
+extract_feature_	dataset.py	/^    def extract_feature_(self,$/;"	m	class:TextDataset
+extractor	utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bag_of_words_extractor
+extractor	utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bert_relation_extractor
+extractor	utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bert_text_extractor
+extractor	utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:image_feature_extractor
+extractor	utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:tf_idf_extractor
+flatten	seqdataset.py	/^    def flatten(self):$/;"	m	class:BaseSeqDataset
+get_agreed_labeled_subset	basedataset.py	/^    def get_agreed_labeled_subset(self):$/;"	m	class:BaseDataset
+get_conflict_labeled_subset	basedataset.py	/^    def get_conflict_labeled_subset(self):$/;"	m	class:BaseDataset
+get_covered_subset	basedataset.py	/^    def get_covered_subset(self):$/;"	m	class:BaseDataset
+get_data_home	__init__.py	/^def get_data_home(data_home=None) -> str:$/;"	f
+get_dataset_type	__init__.py	/^def get_dataset_type(dataset_name):$/;"	f
+get_glove_embedding	utils.py	/^def get_glove_embedding(embedding_file_path=None, PAD='PAD', UNK='UNK'):$/;"	f
+getitem_	torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchDataset
+getitem_	torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchRelationClassDataset
+getitem_	torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchTextClassDataset
+image_feature_extractor	utils.py	/^def image_feature_extractor(data: List[Dict], device: torch.device = None, model_name: Optional[str] = 'resnet18', **kwargs: Any):$/;"	f
+lf_summary	basedataset.py	/^    def lf_summary(self):$/;"	m	class:BaseDataset
+load	basedataset.py	/^    def load(self, path: str, split: str):$/;"	m	class:BaseDataset
+load	dataset.py	/^    def load(self, path: Union[str, Path], split: str):$/;"	m	class:ImageDataset
+load	graphdataset.py	/^    def load(self, path: str, split: str):$/;"	m	class:GraphDataset
+load	seqdataset.py	/^    def load(self, path: Union[str, Path], split: str):$/;"	m	class:BaseSeqDataset
+load_bert_embed	seqdataset.py	/^    def load_bert_embed(self, model_name="bert-base-uncased", device: Optional[torch.device] = None, load_path=None):$/;"	m	class:BaseSeqDataset
+load_dataset	__init__.py	/^def load_dataset(data_home, dataset, dataset_type=None, extract_feature=False, extract_fn=None, **kwargs):$/;"	f
+load_embed_dict	seqdataset.py	/^    def load_embed_dict(self,$/;"	m	class:BaseSeqDataset
+load_features	basedataset.py	/^    def load_features(self, cache_name: Optional[str] = None):$/;"	m	class:BaseDataset
+load_image_dataset	__init__.py	/^def load_image_dataset(data_home, dataset, image_root_path, preload_image=True, extract_feature=False, extract_fn='pretrain', **kwargs):$/;"	f
+load_labeled_ids_and_lf_exemplars	basedataset.py	/^    def load_labeled_ids_and_lf_exemplars(self, path: str):$/;"	m	class:BaseDataset
+logger	basedataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	graphdataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	seqdataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+numeric_datasets	__init__.py	/^numeric_datasets = ['census', 'mushroom', 'spambase', 'PhishingWebsites', 'Bioresponse', 'bank-marketing', 'basketball', 'tennis', 'commercial']$/;"	v
+relation_dataset	__init__.py	/^relation_dataset = ['cdr', 'spouse', 'chemprot', 'semeval']$/;"	v
+sample	basedataset.py	/^    def sample(self, alpha: Union[int, float], return_dataset=True):$/;"	m	class:BaseDataset
+sample_batch	torchdataset.py	/^def sample_batch(loader):$/;"	f
+save_bert_embed	seqdataset.py	/^    def save_bert_embed(self, save_path):$/;"	m	class:BaseSeqDataset
+save_embed_dict	seqdataset.py	/^    def save_embed_dict(self, save_word_dict_path: Optional[str] = None, save_char_dict_path: Optional[str] = None):$/;"	m	class:BaseSeqDataset
+save_features	basedataset.py	/^    def save_features(self, cache_name: Optional[str] = None):$/;"	m	class:BaseDataset
+sentence_transformer_extractor	utils.py	/^def sentence_transformer_extractor(data: List[Dict], model_name: Optional[str] = 'paraphrase-distilroberta-base-v1', **kwargs: Any):$/;"	f
+seq_dataset_list	__init__.py	/^seq_dataset_list = ['laptopreview', 'ontonotes', 'ncbi-disease', 'bc5cdr', 'mit-restaurants', 'mit-movies', 'wikigold', 'conll']$/;"	v
+split_conf_unconf	utils.py	/^def split_conf_unconf(dataset: BaseDataset, y: Optional[np.ndarray] = None, mode: Optional[str] = 'thres',$/;"	f
+split_conf_unconf_by_percentile	utils.py	/^def split_conf_unconf_by_percentile(dataset: BaseDataset, y: Optional[np.ndarray] = None, percentile: float = 0.2,$/;"	f
+split_labeled_unlabeled	utils.py	/^def split_labeled_unlabeled(dataset: BaseDataset, cut_tied: Optional[bool] = False) -> Tuple[BaseDataset, BaseDataset]:$/;"	f
+summary	basedataset.py	/^    def summary(self, n_clusters=10, features=None, return_lf_summary=False):$/;"	m	class:BaseDataset
+text_datasets	__init__.py	/^text_datasets = ['agnews', 'imdb', 'sms', 'trec', 'yelp', 'youtube']$/;"	v
+tf_idf_extractor	utils.py	/^def tf_idf_extractor(data: List[Dict], **kwargs: Any):$/;"	f

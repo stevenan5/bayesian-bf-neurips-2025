@@ -1,0 +1,10 @@
+2024-06-11 21:55:13 - ==========Running New Instance==========
+2024-06-11 21:55:13 - dataset: youtube, n_class: 2
+2024-06-11 21:55:13 - constraint type: accuracy, labeled set: train
+2024-06-11 21:55:13 - balance init: uniform
+2024-06-11 21:55:13 - ----------------Results----------------
+2024-06-11 21:55:13 - time to fit: 0.4 seconds
+2024-06-11 21:55:13 - train acc (train err): 0.8947 (0.1053)
+2024-06-11 21:55:13 - train log loss: 0.6827
+2024-06-11 21:55:13 - train brier score: 0.4895
+2024-06-11 21:55:13 - train f1 score: 0.8971
