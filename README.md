@@ -4,7 +4,14 @@ This repo contains code for Statistical Analysis of an Adversarial Bayesian Weak
 
 If you use this in an academic study, please cite the paper:
 ```
-coming soon!
+@inproceedings{
+an2025statistical,
+title={Statistical Analysis of an Adversarial Bayesian Weak Supervision Method},
+author={Steven An},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=hNjSvgFTbp}
+}
 ```
 
 This is a modification of the code provided for "Convergence Behavior of an Adversarial Weak Supervision Method" found [here](https://github.com/stevenan5/balsubramani-freund-uai-2024).
